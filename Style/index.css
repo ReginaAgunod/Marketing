@@ -1,0 +1,269 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 115, 0, 0.75);
+}
+.CompanyName {
+  font-family: 'Merienda', cursive;
+  font-weight: bold;
+  font-size: 64px;
+  color: #2f2f2f;
+  width: 100%;
+  margin-left: 4%;
+}
+nav {
+  margin-bottom: 4%;
+  margin-top: 4%;
+  width: 100%;
+}
+.heading {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+}
+.About {
+  margin-right: 3%;
+}
+.LogIn {
+  margin-right: 3%;
+}
+.SignUp {
+  margin-right: 3%;
+  font-family: 'Merienda', cursive;
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+.About,
+.LogIn {
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #2f2f2f;
+  text-decoration: none;
+  margin-top: 2%;
+}
+.bt {
+  background-color: rgba(194, 59, 33, 0.85);
+  padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 10%;
+}
+.Team {
+  font-family: 'Merienda', cursive;
+  font-weight: bold;
+  font-size: 48px;
+  color: #2f2f2f;
+  padding: 4%;
+  display: flex;
+  justify-content: center;
+}
+.Lead {
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 33%;
+  margin: 5px auto;
+  margin-bottom: 15px;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 30px;
+  display: flex;
+  padding: 30px;
+  background-color: white;
+  color: black;
+}
+.PL {
+  background-color: white;
+  flex: 0 1 auto;
+  margin-right: 15px;
+  align-self: auto;
+}
+.Group {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 33%;
+  margin: 5px auto;
+  margin-bottom: 15px;
+  background-color: white;
+}
+.Group .Member {
+  width: 40%;
+  margin: auto;
+  margin-bottom: 30px;
+  display: flex;
+  padding: 30px;
+  background-color: white;
+  color: black;
+}
+.Regina {
+  background-color: white;
+  flex: 0 1 auto;
+  margin-right: 15px;
+  align-self: auto;
+}
+.Nikolai {
+  background-color: white;
+  flex: 0 1 auto;
+  margin-left: 15px;
+  align-self: auto;
+}
+.Mohammad {
+  background-color: white;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+.Raul {
+  background-color: white;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+.Dalton {
+  background-color: white;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+.Charlie {
+  background-color: white;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+.Tommy {
+  background-color: white;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+.Greg {
+  background-color: white;
+  flex: 0 1 auto;
+  align-self: auto;
+}
